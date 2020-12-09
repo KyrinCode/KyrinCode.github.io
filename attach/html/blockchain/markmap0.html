@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.3.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.2.0"></script><script>((e,t)=>{const{Markmap:r}=e();window.mm=r.create("svg#mindmap",null,t)})(()=>window.markmap,{"t":"heading","d":1,"p":{},"v":"internal/ethapi/api.go: SendTransaction()","c":[{"t":"heading","d":2,"p":{},"v":"internal/ethapi/api.go: SendTxArgs.toTransaction()","c":[{"t":"heading","d":3,"p":{},"v":"core/types/transaction.go: NewContractCreation()"},{"t":"heading","d":3,"p":{},"v":"core/types/transaction.go: NewTransaction()"}]},{"t":"heading","d":2,"p":{},"v":"accounts/keystore/wallet.go: SignTx()","c":[{"t":"heading","d":3,"p":{},"v":"accounts/keystore/keystore.go: SignTx()","c":[{"t":"heading","d":4,"p":{},"v":"core/types/transaction_signing.go: SignTx()","c":[{"t":"heading","d":5,"p":{},"v":"core/types/transaction_signing.go: Hash()"},{"t":"heading","d":5,"p":{},"v":"crypto/signature_cgo.go: crypto.Sign()"},{"t":"heading","d":5,"p":{},"v":"core/types/transaction.go: WithSignature()","c":[{"t":"heading","d":6,"p":{},"v":"core/types/transaction.go: SignatureValues()"}]}]}]}]},{"t":"heading","d":2,"p":{},"v":"internal/ethapi/api.go: SubmitTransaction()","c":[{"t":"heading","d":3,"p":{},"v":"eth/api_backend.go: SendTx()","c":[{"t":"heading","d":4,"p":{},"v":"core/tx_pool.go: AddLocal()","c":[{"t":"heading","d":5,"p":{},"v":"core/tx_pool.go: AddLocals()","c":[{"t":"heading","d":6,"p":{},"v":"core/tx_pool.go: addTxs()","c":[{"t":"list_item","d":8,"p":{},"v":"core/tx_pool.go: addTxsLocked()","c":[{"t":"list_item","d":10,"p":{},"v":"core/tx_pool.go: add()","c":[{"t":"list_item","d":12,"p":{},"v":"core/tx_pool.go: validateTx()"}]}]},{"t":"list_item","d":8,"p":{},"v":"core/tx_pool.go: requestPromoteExecutables()"}]}]}]}]},{"t":"heading","d":3,"p":{},"v":"crypto/crypto.go: CreateAddress()"}]}]})</script>
+</body>
+</html>
